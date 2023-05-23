@@ -9,6 +9,7 @@ public class Scene_Manager : MonoBehaviour
    public string Moon;
    public string Mars;
    public string Main;
+   public string Sun;
 
     public void LoadMercury()
     {
@@ -38,5 +39,10 @@ public class Scene_Manager : MonoBehaviour
     public void LoadMain()
     {
         SceneManager.LoadScene(Main);
+    }
+
+    public void LoadSun()
+    {
+        SceneManager.LoadScene(Sun);
     }
 }
